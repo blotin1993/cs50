@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+        <!-- "#" is short for Id "." is short for class-->
+        <style>
+          #top {
+            font-size: 36px;
+          }
+          #middle {
+            font-size: 24px;
+          }
+          #bottom {
+            font-size: 12px;
+          }
+          .name {
+            font-weight: bold;
+          }
+          body {
+            background-image: url("Eye.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: 10%;
+          }
+          #top, #middle, #bottom {
+              text-align: center;
+              color: red;
+              border: 20px;
+              padding: 30px;
+          }
+        </style>
+    </head>
+    <body>
+      <!--"id" must be unique, while "class" can be repeated through different items. -->
+      <div id="top" class="name">
+        This is the <span class="name">top</span> of my web page.
+      </div>
+      <div id="middle">
+        This is the <span class="name">middle</span> of my web page.
+      </div>
+      <div id="bottom">
+        This is the <span class="name">bottom</span> of my web page.
+      </div>
+    </body>
+</html>
